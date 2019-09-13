@@ -173,7 +173,7 @@ class GoogleSheetWriter:
         :param spreadsheet - Google spreadsheet Object
         :return  returns new worksheet object
         """
-        sheet  = worksheet.add_worksheet(title=sheetname, rows="100", cols="20")
+        sheet  = spredsheet.add_worksheet(title=worksheet, rows="100", cols="20")
         return sheet
 
     def get_worksheet_by_name(self,spreadsheet,worksheet):
